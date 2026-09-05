@@ -1,0 +1,6 @@
+# Demonstration package — every page also carries <meta name="robots" content="noindex">.
+# Remove the noindex tags and this comment when the real site goes live.
+User-agent: *
+Allow: /
+
+Sitemap: https://YOURDOMAIN.com/sitemap.xml

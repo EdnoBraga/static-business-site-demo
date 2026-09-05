@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Image placeholder">
+  <rect width="1200" height="800" fill="#eef1f5"/>
+  <g fill="none" stroke="#b9c4d1" stroke-width="4">
+    <rect x="440" y="300" width="320" height="220" rx="14"/>
+    <circle cx="520" cy="368" r="26"/>
+    <path d="M452 500l108-104 76 74 60-56 92 86"/>
+  </g>
+  <text x="600" y="586" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="30" fill="#8a97a6">Your image goes here — 1200 &#215; 800</text>
+</svg>

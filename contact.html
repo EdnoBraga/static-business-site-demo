@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Demo Co.</title>
+<meta name="description" content="How to reach the company: form, email, phone, address and opening hours.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1f4e79">
+<meta property="og:title" content="Contact — Demo Co.">
+<meta property="og:description" content="How to reach the company: form, email, phone, address and opening hours.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e79'/%3E%3Crect x='18' y='18' width='14' height='14' fill='%23c4791a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Demo&nbsp;Co.</a>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+    <label class="nav-button" for="nav-toggle">Menu</label>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Tell us what you need.</h1>
+    <p class="lead">One sentence setting the expectation: how quickly you reply and what happens next.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid grid--2">
+    <div>
+      <h2>Send a message</h2>
+      <form class="form" action="#" method="post" aria-label="Contact form" aria-describedby="form-hint">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="subject">How can we help?</label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Choose one</option>
+            <option>Service one</option>
+            <option>Service two</option>
+            <option>Service three</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div><button class="btn btn--primary" type="submit">Send message</button></div>
+        <p class="hint" id="form-hint">Field validation runs in the browser, with no JavaScript. The form is deliberately not wired up in this demonstration: on the live site it posts to whichever handler your hosting provides, configured and tested before delivery.</p>
+      </form>
+    </div>
+    <div>
+      <h2>Or reach us directly</h2>
+      <dl class="info-list">
+        <div><dt>Email</dt><dd><a href="mailto:hello@example.com">hello@example.com</a></dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:+442000000000">+44 20 0000 0000</a></dd></div>
+        <div><dt>Address</dt><dd>Street address<br>City, Country</dd></div>
+        <div><dt>Opening hours</dt><dd>Monday to Friday, 9am – 6pm</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>Demo&nbsp;Co.</h3>
+        <p class="footer-about">One line on what the company does and who it serves.</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul role="list">
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><a href="tel:+442000000000">+44 20 0000 0000</a></li>
+          <li>Street address, City</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Opening hours</h3>
+        <ul role="list">
+          <li>Monday to Friday, 9am – 6pm</li>
+          <li>Saturday, by appointment</li>
+        </ul>
+      </div>
+    </div>
+    <p class="colophon">© 2026 Demo Co. — layout demonstration. Copy, colours, fonts and imagery are placeholders, replaced with yours on delivery.</p>
+  </div>
+</footer>
+</body>
+</html>

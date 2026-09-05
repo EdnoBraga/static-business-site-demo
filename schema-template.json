@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://YOURDOMAIN.com/#business",
+  "name": "Your company name",
+  "url": "https://YOURDOMAIN.com/",
+  "telephone": "+44 20 0000 0000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Street address",
+    "addressLocality": "City",
+    "postalCode": "Postcode",
+    "addressCountry": "GB"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ]
+}
